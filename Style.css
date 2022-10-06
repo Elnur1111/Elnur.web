@@ -1,0 +1,62 @@
+
+
+body { 
+    font-family: Arial;
+    width: 90%;
+    margin: 20px auto;
+
+}
+
+
+
+p{
+    font-family: Arial;        /* Same function as the one inside <p> */
+    font-style: italic;
+}
+
+.Font-size{
+    font-family: Italic;
+}
+
+a:visited{
+    color: blue;
+
+}
+
+a:hover{
+    font-size: 110%;
+}
+
+
+
+
+ div {
+    background-color: rgb(205, 240, 234);
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    right: 0;
+  }
+  
+  div a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 1.3em;
+
+  }
+  
+  div a:hover {
+    background-color: white;
+    color: rgb(89, 215, 241);
+    
+
+    text-decoration: underline;
+  }
+  
+  .active{
+    background-color: rgb(236, 197, 251);
+  }
+  
