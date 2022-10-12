@@ -1,62 +1,67 @@
 
 
 body { 
-    font-family: Arial;
-    width: 90%;
-    margin: 20px auto;
+  font-family: Arial;
+  width: 90%;
+  margin: 20px auto;
+  background-color: black;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;        /* Same function as the one inside <p> */
+  font-style: normal;
 
 }
 
 
 
-p{
-    font-family: Arial;        /* Same function as the one inside <p> */
-    font-style: italic;
-}
+
 
 .Font-size{
-    font-family: Italic;
+  font-family: Italic;
 }
 
 a:visited{
-    color: blue;
+  color: orange;
 
+}
+
+a:link{
+color: orange;
 }
 
 a:hover{
-    font-size: 110%;
+  font-size: 110%;
 }
 
 
 
 
- div {
-    background-color: rgb(205, 240, 234);
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-    position: sticky;
-    top: 0%;
-    right: 0;
-  }
-  
-  div a {
-    color: white;
-    text-decoration: none;
-    margin: 0px 20px;
-    font-size: 1.3em;
+div {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: sticky;
+  top: 0%;
+  right: 0;
+}
 
-  }
-  
-  div a:hover {
-    background-color: white;
-    color: rgb(89, 215, 241);
-    
+div a {
+  color: white;
+  text-decoration: none;
+  margin: 0px 20px;
+  font-size: 1.3em;
 
-    text-decoration: underline;
-  }
+}
+
+div a:hover {
+ 
+  color: red;
+  text-decoration: underline;
   
-  .active{
-    background-color: rgb(236, 197, 251);
-  }
-  
+}
+
+.active{
+  background-color: black;
+  text-decoration: underline;
+  font-size: 30px;
+}

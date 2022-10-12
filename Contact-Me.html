@@ -12,6 +12,8 @@
             padding: 5px 10px;
             box-sizing: border-box ;
             border-radius: 3px;
+            background-color: black;
+            color: white;
         }
         textarea{
             width: 100%;
@@ -21,6 +23,8 @@
             border-radius: 3px;
             box-sizing: border-box;
             resize: none;
+            background-color: black;
+            color: white;
         }
 
         hr.new1{
@@ -32,6 +36,42 @@
         margin-left: auto;
         margin-right: auto;
     }
+    select{
+        width: 5%;
+        background-color: rgba(255, 255, 255, 0.77);
+    }
+    input[type=submit]{
+        background-color: rgba(255, 255, 255, 0.77);
+        color: black;
+        box-sizing: border-box;
+        border-radius: 3px;
+        
+    }
+    input[type=submit].hvr:hover{
+            border: 3px solid;
+           font-size: 15px;
+    }
+
+    ::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: orange; 
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: orange; 
+}
     </style>
 
 </head>
@@ -44,6 +84,7 @@
         <a href="Education.html">Education</a>
         <a href="Contact-Me.html" class="active">Contact Me</a>
         <a href="Gallery.html">Photo Gallery</a>
+        <a href="Digital-Business-Card.html" target="_blank">Digital-Card</a>
         
 
     </div>
@@ -69,13 +110,17 @@
         <label>Message:</label> <br>
         <textarea placeholder="Your Message"></textarea> <br>
 
-        <label for="Save">Are you a ADA student?</label>
-        <input type="checkbox" name="Save" > <br>
+        <label for="Ada-student">Are you a ADA student</label>
+        <select id="Ada-student" name="Ada-student">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
 
-        <input type="submit" value="Send">
+        <input class="hvr" type="submit" value="Send">
 
     </form>
     <hr class="new1">
+    
 
     
     <h2>Address &#127969;</h2>
