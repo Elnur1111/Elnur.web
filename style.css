@@ -4,7 +4,7 @@ body {
   font-family: Arial;
   width: 90%;
   margin: 20px auto;
-  background-color: black;
+  background-color: #202221;
   color: white;
   font-family: 'Times New Roman', Times, serif;        /* Same function as the one inside <p> */
   font-style: normal;
@@ -36,7 +36,7 @@ a:hover{
 
 
 div {
-  background-color: black;
+  background-color: rgb(23, 23, 23);
   padding: 10px;
   text-align: center;
   width: 100%;
@@ -61,7 +61,7 @@ div a:hover {
 }
 
 .active{
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0);
   text-decoration: underline;
   font-size: 30px;
 }
