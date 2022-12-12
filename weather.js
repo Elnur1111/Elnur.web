@@ -50,8 +50,7 @@ let weather = {
         document.querySelector(".wind_d").innerText =
         "Wind Direction: " + deg + "° "+ windDir(deg);
       document.querySelector(".weather").classList.remove("loading");
-      document.body.style.backgroundImage =
-        "url('https://source.unsplash.com/1600x900/?" + name + "')";
+      
     },
     search: function () {
       this.fetchWeather(document.querySelector(".search-bar").value);
@@ -94,9 +93,4 @@ let weather = {
     
     }
 
-    
-
-     
-
   
-//   weather.fetchWeather("Denver");
